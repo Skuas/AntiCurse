@@ -39,11 +39,11 @@ public class AntiCurse extends JavaPlugin implements Listener {
         Player p = e.getPlayer();
 	    
         for(String string : f) {
-        	 if(m.contains(string)) {
+            if(m.contains(" " + string + " ")) {
              	e.setCancelled(true);
             	p.sendMessage(ChatColor.RED + w);
         	  break;
             }
         }
-	}
+    }
 }
