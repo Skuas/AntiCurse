@@ -1,2 +1,4 @@
 filter:
-   - test
+   1: test
+   
+warning: Don't swear!
