@@ -1,2 +1,2 @@
 # AntiCurse
-Light-weight chat filter for Spigot 1.8+
+Light-weight chat filter for Bukkit/Spigot 1.8+ ~ Developed by Skua.
