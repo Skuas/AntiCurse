@@ -1,5 +1,7 @@
 package me.Skua.anticurse;
 
+import java.util.List;
+
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -32,15 +34,16 @@ public class AntiCurse extends JavaPlugin implements Listener {
 		
         String m = e.getMessage();
         String w = getConfig().getString("Warning");
-        String f = getConfig().getString("Filter.1");
+        List<String> f = getConfig().getStringList("Filter");
         
         Player p = e.getPlayer();
 	    
-        if (m.contains(f)) {
-        	
-        	e.setCancelled(true);
-        	p.sendMessage(ChatColor.RED + w);
-        	
-	    }
+        for(String string : f) {
+        	 if(m.contains(string)) {
+             	e.setCancelled(true);
+            	p.sendMessage(ChatColor.RED + w);
+        	  break;
+            }
+        }
 	}
 }
