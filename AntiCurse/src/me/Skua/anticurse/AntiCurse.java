@@ -26,6 +26,7 @@ public class AntiCurse extends JavaPlugin implements Listener {
 		/*
 		 * m = Message
 		 * w = Warning
+		 * f = Filter
 		 * p = Player
 		 */
 		
