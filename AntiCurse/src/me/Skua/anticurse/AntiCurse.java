@@ -1,7 +1,10 @@
 package me.Skua.anticurse;
 
-public class AntiCurse {
+import org.bukkit.event.Listener;
+import org.bukkit.plugin.java.JavaPlugin;
 
-	// Test Update
+public class AntiCurse extends JavaPlugin implements Listener {
+
+	
 	
 }
