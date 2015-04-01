@@ -1,4 +1,4 @@
-filter:
-   1: test
+Filter:
+   1: Example
    
-warning: Don't swear!
+Warning: Swearing is against the rules!

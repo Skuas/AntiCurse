@@ -1,0 +1,4 @@
+name: AntiCurse
+version: 1.0
+main: me.Skua.anticurse.AntiCurse
+description: Light-weight chat filter for Bukkit/Spigot 1.8+ ~ Developed by Skua.
